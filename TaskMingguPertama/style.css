@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(237, 237, 16);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+  color: rgb(229, 200, 163);
+  margin: 0;
+  margin-top: 5px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  background-image: url("background.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  width: 100%;
+  color: rgb(31, 228, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 60, 240, 1) 0%,
+    rgba(255, 64, 129, 1) 32%,
+    rgba(232, 16, 104, 1) 57%,
+    rgba(180, 1, 158, 1) 100%
+  );
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  font-family: "Quicksand", sans-serif;
+  border-radius: 8px;
+  background: linear-gradient(
+    0deg,
+    rgba(30, 206, 208, 1) 14%,
+    rgba(253, 187, 45, 1) 95%
+  );
+  color: rgb(8, 1, 17);
+}
+
+.media {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+
+.media a {
+  color: rgb(229, 200, 163);
+}
+
+.media a:hover {
+  transition: 0.5s;
+  color: blueviolet;
+}
+
+.design {
+  margin-top: 3px;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  color: rgb(31, 228, 228);
+  letter-spacing: 2px;
+  font-weight: 1000;
+  margin: 0px 5px;
+}
+
+.contact {
+  margin-top: 10px;
+
+  color: white;
+}
+
+.profil p {
+  margin-top: 10px;
+  color: azure;
+  font-size: 15px;
+}
+
+.collect {
+  margin-top: 10px;
+}
+
+.collect p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.collect img {
+  width: 20%;
+  margin: 3px;
+  margin-block: 6px;
+}
+
+.collect img:hover {
+  transform: scale(1.1);
+}
+
+.skill p {
+  font-size: 13px;
+  color: beige;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill img {
+  width: 20%;
+  margin: 3px;
+  margin-block: 6px;
+}
+
+input,
+textarea {
+  background-color: rgb(234, 227, 227);
+  border: none;
+  padding: 0px;
+  margin: 2px;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.contact p {
+  font-size: 12px;
+}
+
+.contact button {
+  width: 27%;
+  color: rgb(31, 228, 228);
+  background: 90deg, rgba(241, 60, 240, 1) 0%, rgba(255, 64, 129, 1) 32%,
+    rgba(232, 16, 104, 1) 57%, rgba(180, 1, 158, 1) 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(30, 206, 208, 1) 14%,
+    rgba(253, 187, 45, 1) 95%
+  );
+  color: rgb(8, 1, 17);
+}
